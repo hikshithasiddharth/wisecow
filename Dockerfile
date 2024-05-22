@@ -1,3 +1,4 @@
+# base image ubuntu
 FROM ubuntu:latest
 RUN apt -y update
 RUN apt install fortune-mod cowsay -y
