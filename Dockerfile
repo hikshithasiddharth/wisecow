@@ -1,4 +1,4 @@
-# copy it from current path to root path
+#env path by default it shows the path we usr/games path given by us 
 FROM ubuntu:latest
 RUN apt -y update
 RUN apt install fortune-mod cowsay -y
