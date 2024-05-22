@@ -1,4 +1,4 @@
-# netcat is used to listen the port
+# copy it from current path to root path
 FROM ubuntu:latest
 RUN apt -y update
 RUN apt install fortune-mod cowsay -y
