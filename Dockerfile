@@ -1,4 +1,4 @@
-# base image ubuntu
+# apt is a application pacakage tool 
 FROM ubuntu:latest
 RUN apt -y update
 RUN apt install fortune-mod cowsay -y
