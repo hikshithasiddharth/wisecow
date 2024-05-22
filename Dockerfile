@@ -1,4 +1,4 @@
-# apt is used to install cowsay 
+# neycat_openbsd
 FROM ubuntu:latest
 RUN apt -y update
 RUN apt install fortune-mod cowsay -y
