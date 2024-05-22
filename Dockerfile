@@ -1,4 +1,4 @@
-# neycat_openbsd
+# netcat is used to listen the port
 FROM ubuntu:latest
 RUN apt -y update
 RUN apt install fortune-mod cowsay -y
