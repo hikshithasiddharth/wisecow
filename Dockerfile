@@ -1,4 +1,4 @@
-# apt is a application pacakage tool 
+# apt is used to install cowsay 
 FROM ubuntu:latest
 RUN apt -y update
 RUN apt install fortune-mod cowsay -y
