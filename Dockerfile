@@ -1,4 +1,4 @@
-#env path by default it shows the path we usr/games path given by us 
+# cmd /wisecow.sh 
 FROM ubuntu:latest
 RUN apt -y update
 RUN apt install fortune-mod cowsay -y
