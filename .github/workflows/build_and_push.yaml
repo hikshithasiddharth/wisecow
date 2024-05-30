@@ -35,7 +35,8 @@ jobs:
 
       - name: Configure kubeconfig
         run: |
-          echo "${{ secrets.KUBECONFIG }}" > $HOME/.kube/config 2>/dev/null
+          mkdir -p $HOME/.kube
+          echo "${{ secrets.KUBECONFIG }}" > $HOME/.kube/config 
 
       - name: Apply Kubernetes manifests
         continue-on-error: true
